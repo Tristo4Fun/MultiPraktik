@@ -1,0 +1,272 @@
+"I used to be an adventurer like you. Then I took an arrow in the knee..." || None
+"Let me guess... someone stole your sweetroll." || None
+"Citizen." || Imperial Guard
+"Disrespect the law, and you disrespect me." || None
+"What do you need?" || None
+"Trouble?" || None
+"What is it?" || None
+"No lollygaggin'." || None
+"Staying safe I hope." || None
+"Everything all right?" || None
+"Could sure use a warm bed right about now..." || None
+"I'd be a lot warmer and a lot happier with a bellyful of mead..." || None
+"I mostly deal with petty thievery and drunken brawls. Been too long since we've had a good bandit raid." || None
+"What is it? Dragons?" || None
+"Watch the skies, traveler." || None
+"My cousin's out fighting dragons, and what do I get? Guard duty." || None
+"Gotta keep my eyes open. Damn dragons could swoop down at any time." || None
+"Fear not. Come dragon or giant, we'll be ready." || None
+"They say Ulfric Stormcloak murdered the High King... with his voice! Shouted him apart!" || None
+"No matter what else happens, the guards will always be grateful for everything you've done." || Complete the Main Quest
+"Yes, Dovahkiin? How can I help you?" || Complete the Main Quest.
+"Whatever you need, Dragonborn. Just say the word." || Complete Dragon Rising and use your shout.
+"Helgen... destroyed by a dragon. Hard to believe, isn't it?" || None
+"I fear the night. Because the werewolves and vampires don't." || Nighttime
+"Bit late to be wandering around, isn't it?" || Nighttime
+"Only burglars and vampires creep around after dark. So which are you?" || Nighttime
+"You hear that? I swear, there's something out there. In the dark." || Nighttime
+"I hope you're finding the city in proper order, thane." || Be thane of the hold
+"I trust the day's found you well, thane." || Be thane of the hold
+"How do you do, thane?" || Be thane of the hold
+"They say Helgen got hit by a dragon. One of those horrors comes here, we'll be ready." || None
+"Brigands I can handle, but this talk of dragons? World's gone mad, I say." || None
+"Everything's in order." || None
+"Just a few more hours and I can crawl under some furs..." || Between the hours of 11 pm and 4 am
+"Jarl's been looking for someone who ain't superstitious though. Be lookin' for a fool if you ask me." || Morthal Guards when asked about the burned house
+"It's bad luck to talk about that place." || Morthal Guards when asked about the burned house
+"You should talk to the Jarl up in Dragonsreach, lend any aid you can." || Guards in Whiterun have this dialogue before Bleak Falls Barrow is completed.
+"Stormcloaks, Imperials, dragons. Ain't no matter to me what I kill. Let them come." || Whiterun guards before and after Battle for Whiterun (Sided with the Legion).
+"Guard might get nervous, a man/woman approaches with his/her weapon drawn..." || Approached by the player with weapons drawn.
+"Sheathe those claws, Khajiit." || Approached by the player with fists raised.
+"You come up to me, fists raised? You looking for a beating?" || Approached by the player with fists raised.
+"Whoa, whoa, whoa! Watch the magic!" || Player casts a spell in the guard's presence.
+"Go cast your fancy magic someplace else." || Approached by the player with magic spells ready.
+"By all I hold sacred... that's a Shout! Like the {{sic|Graybeards|Greybeards}} on their mountain!"
+"By the Gods! What manner of power is that?"
+"It is the power of old! The Voice of the Dragonborn!"
+"The Thu'um! He/She summons the Thu'um!"
+"I need to ask you to stop. That... shouting... is making people nervous."  || May happen when the player uses any dragon shout in front of a guard.
+"Well. I'll let it slide this time. But you'd be smart to take that off. Someone might get the wrong idea." || Apologizes to Captain Aldis for wearing Stormcloak Armor.
+"Hmm. I still don't like it, but I guess I'll overlook it. This time." || Convinces guard to ignore crime.
+"I find your wolfish grin... unsettling." || Player is a [[Skyrim:Werewolf|Werewolf]] in human form
+"Is that... fur? Coming out of your ears?" || Player is a [[Skyrim:Werewolf|Werewolf]] in human form
+"Uch. Been tending your hounds? You smell like {{hover|not visible in subtitle|a}} wet dog." || Player is a [[Skyrim:Werewolf|Werewolf]] in human form
+"Werewolf!" || Player is a [[Skyrim:Werewolf|Werewolf]] in beast form
+"It's a werewolf! To arms! To arms!" || Player is a [[Skyrim:Werewolf|Werewolf]] in beast form
+"Vampire! Burn it!" || Afflicted with [[sr:Vampirism|Vampirism]] in stage 4 without the [[sr:Dawnguard|Dawnguard]] add-on
+"Vampire! To arms!" || Afflicted with [[sr:Vampirism|Vampirism]] in stage 4 without the [[sr:Dawnguard|Dawnguard]] add-on
+"Wait... I know you." || Have a [[sr:Bounty|Bounty]] in that Hold
+"What is it, Argonian?" || [[sr:Argonian|Argonian]] ||
+"Stay out of trouble, Argonian." || [[sr:Argonian|Argonian]] ||
+"Stay out of trouble, lizard." || [[sr:Argonian|Argonian]] || Guard is a Stormcloak
+"Staying out of trouble, kinsman?" || [[sr:Nord|Nord]] || Guard is Nord
+"How can I help a brother Nord?" || [[sr:Nord|Nord]] || Guard is a Nord
+"Stay out of trouble, Nord." || [[sr:Nord|Nord]] || Guard is not Nord
+"Don't cross me, Elf." || [[sr:Altmer|Altmer]], [[sr:Bosmer|Bosmer]], or [[sr:Dunmer|Dunmer]] || Guard is Nord and a Stormcloak
+"Stay out of trouble, Elf." || [[sr:Altmer|Altmer]], [[sr:Bosmer|Bosmer]], or [[sr:Dunmer|Dunmer]] || Guard is not a Stormcloak
+"What is it, Elf?" || [[sr:Altmer|Altmer]], [[sr:Bosmer|Bosmer]], or [[sr:Dunmer|Dunmer]] || Guard is not a Stormcloak
+"Stay out of trouble, Khajiit." || [[sr:Khajiit|Khajiit]] ||
+"What is it, Khajiit?" || [[sr:Khajiit|Khajiit]] ||
+"What do you want... cat?" || [[sr:Khajiit|Khajiit]] || Guard is a Stormcloak
+"Sheathe those claws, Khajiit" || [[sr:Khajiit|Khajiit]] || Unarmed with fists raised
+"Stay out of trouble, Redguard." || [[sr:Redguard|Redguard]] ||
+"What is it, Redguard?" || [[sr:Redguard|Redguard]] ||
+"Stay out of trouble, Imperial." || [[sr:Imperial|Imperial]] || Guard is not Imperial (race)
+"What is it, Imperial?" || [[sr:Imperial|Imperial]] || Guard is not Imperial (race)
+"Stay out of trouble, Orc." || [[sr:Orc|Orc]] ||
+"What is it, Orc?" || [[sr:Orc|Orc]] ||
+"Pigsticker like that's not going to get you far. Best visit the blacksmith."|| [[sr:Iron Sword|Iron Sword]] ||
+"That iron sword's pretty undependable. You should try steel."|| [[sr:Iron Sword|Iron Sword]] ||
+"Iron sword, huh? What are you killing, butterflies?"|| [[sr:Iron Sword|Iron Sword]] ||
+"Favor a steel sword, do ya? Good choice for slashing or stabbing."||[[sr:Steel Sword|Steel Sword]] ||
+"Why the Elven blade, hmm? Nord steel not good enough for you?"||[[sr:Elven Sword|Elven Sword]] ||
+"Aye, now that there's a beautiful sword. Like a sliver of midnight."||[[sr:Ebony Sword|Ebony Sword]] ||
+"Takes a fair bit of strength to carry a greatsword like that. But can you use it?"||Greatsword ([[sr:Iron Greatsword|Iron]], [[sr:Steel Greatsword|Steel]], [[sr:Dwarven Greatsword|Dwarven]], |-
+"Some advice, friend. That armor won't offer much protection in a real fight."||[[sr:Hide Armor|Hide Armor]] ||
+"You wear the armor of a brigand. Best not cause any trouble on my watch."||[[sr:Studded Armor|Studded Armor]] ||
+"Fancy the leather armor, huh? Something to be said for going light."||[[sr:Leather Armor|Leather Armor]] ||
+"That's fine scale armor you've got on there. Shiny."||[[sr:Scaled Armor|Scaled Armor]] ||
+"That's good armor you've got there, friend. Iron, solid and true."||[[sr:Iron Armor|Iron Armor]] ||
+"Hmph. You wear that armor well. Iron may be simple, but it'll stop enough to keep you in the fight."||[[sr:Iron Armor|Iron Armor]] ||
+"You wear the armor of a mercenary. Now that's the life."||[[sr:Banded Iron Armor|Banded Iron Armor]] ||
+"Aye, now that's some fine armor. Good old-fashioned steel."||[[sr:Steel Armor|Steel Armor]] or [[sr:Steel Plate Armor|Steel Plate Armor]] ||
+"Fine armor you've got there. Dwarven make, am I right?"||[[sr:Dwarven Armor|Dwarven Armor]] ||
+"Ah, steel plate. Now that's a solid choice of armor."||[[sr:Steel Plate Armor|Steel Plate Armor]] ||
+"Orcish armor, hmm? Had me a set of that once. Ugly and strong, like those that forged it."||[[sr:Orcish Armor|Orcish Armor]] ||
+"Ebony armor. By Ysmir, 'tis a wondrous sight."||[[sr:Ebony Armor|Ebony Armor]] ||
+"Is your armor made of... dragon bones? By the gods, what I wouldn't do for a set of that."||[[sr:Dragonplate Armor|Dragonplate Armor]] ||
+"Is your armor made of... dragon scales? By the gods, what I wouldn't do for a set of that."||[[sr:Dragonscale Armor|Dragonscale Armor]] ||
+"You come talking to me wearing Imperial armor? You got stew for brains?"||[[sr:Imperial Armor|Imperial Armor]]||Stormcloak Guard
+"That's some fine Imperial armor you've got there."||[[sr:Imperial Armor|Imperial Armor]]||Imperial Guard
+"For your sake, I hope {{sic|your|you}} took that armor from a dead Imperial scout..."||[[sr:Imperial Light Armor|Imperial Light Armor]]||Stormcloak Guard
+"Judging by your armor, I'd say you're an Imperial scout. If so, well met."||[[sr:Imperial Light Armor|Imperial Light Armor]]||Imperial Guard
+"That armor... Are you one of the Emperor's protectors? Can't say I envy you that job."||[[sr:Penitus Oculatus Armor|Penitus Oculatus Armor]]||[[sr:Hail Sithis!|Hail Sithis!]] Incomplete
+"That armor... Are you one of the Emperor's protectors? Not very good at your job, are you?"||[[sr:Penitus Oculatus Armor|Penitus Oculatus Armor]]||[[sr:Hail Sithis!|Hail Sithis!]] Complete
+"You wear that Stormcloak armor well, friend."||[[sr:Stormcloak Cuirass|Stormcloak Cuirass]]||Stormcloak Guard
+"That Stormcloak armor's getting on my nerves..."||[[sr:Stormcloak Cuirass|Stormcloak Cuirass]]||Imperial Guard
+"You wear the armor of the bear, my friend. A fine choice."||[[sr:Stormcloak Officer Armor|Stormcloak Officer Armor]]||Stormcloak Guard
+"You dare strut around here, wearing that filthy Stormcloak hide?"||[[sr:Stormcloak Officer Armor|Stormcloak Officer Armor]]||Imperial Guard
+"Ugh. That armor stinks of death. You been grave robbing?"||[[sr:Ancient Nord Armor|Ancient Nord Armor]] ||
+"You wear the garb of a true Nord. I salute you."||[[sr:Wolf Armor|Wolf Armor]] ||
+*gasp* "You wield... Azura's Star? How... how can such a thing be possible?" || [[sr:Azura's Star|Azura's Star]] || Carried
+"By Shor, is that... is that Azura's Star? How did you come to possess such a rare treasure?" || [[sr:Azura's Star|Azura's Star]] || Carried
+"Ah, Aegisbane. Sigil of Clan Shatter-Shield. But didn't that get stolen awhile back? Hmph. Must be rememberin' wrong." || [[sr:Aegisbane|Aegisbane]] || Windhelm only
+"That hammer... Why that's Aegisbane, heirloom of Clan Shatter-Shield! Last I heard, it was stolen by a couple of swindlers. [[Skyrim:Alain Dufont|Alain]] and... [[Skyrim:Muiri|Muiri]]. Yeah." |-
+"No.. get that accursed mace away from me..."||[[sr:Mace of Molag Bal|Mace of Molag Bal]] ||
+"That mace... get it away from me. Get it away..."||[[sr:Mace of Molag Bal|Mace of Molag Bal]] ||
+"Who did you have to kill to get that blade?"||[[sr:Mehrunes' Razor|Mehrunes Razor]] ||
+"That armor... it's like nothing I've ever seen. Like forged midnight..."||[[sr:Nightingale Armor|Nightingale Armor]] ||
+"Ugh. Your breath is foul. What've you been eating?"||[[sr:Ring of Namira|Ring of Namira]] ||
+"'Tis a wicked axe you wield there, friend. That blade looks sharp enough to cut through a god."||[[sr:The Rueful Axe|The Rueful Axe]] ||
+"What manner of staff is that? Such a horror..."|| [[sr:Skull of Corruption|Skull of Corruption]] ||
+"What a foul and unnatural weapon you wield. Never have I seen its like."||[[sr:Skull of Corruption|Skull of Corruption]] ||
+"Ah, now that's a fine shield. And not mere Dwarven... is it?"||[[sr:Spellbreaker|Spellbreaker]] ||
+"Your shield... Dwarf-make, is it not? But yet it seems so much... more."||[[sr:Spellbreaker|Spellbreaker]] ||
+"I know Thieves Guild armor when I see it. You're not fooling anyone."||[[sr:Thieves Guild Armor|Thieves Guild Armor]] or [[sr:Guild Master's Armor|Guild Master's Armor]] ||
+"Try to hide it all you want. I know you're in the Thieves Guild... and so do the other guards."||[[sr:Thieves Guild Armor|Thieves Guild Armor]] or [[sr:Guild Master's Armor|Guild Master's 
+"What do you aim to do with that hammer, friend? Knock down a house?"||[[sr:Volendrung|Volendrung]] ||
+*whistles* "That is one... big hammer."||[[sr:Volendrung|Volendrung]] ||
+"Hey, you mix potions, right? Can you brew me an ale?" || [[sr:Alchemy|Alchemy]]
+"Fancy yourself an alchemist, hmm? Never could get the hang of that."|| [[sr:Alchemy|Alchemy]]
+"Keep your arrows in their quiver, archer." || [[sr:Archery|Archery]]* 
+"Favor the bow, eh? I'm a sword man, myself." || [[sr:Archery|Archery]] 
+"Hail, summoner. Conjure me up a warm bed, would you?" || [[sr:Conjuration|Conjuration]]
+"Destruction magic's fine, just don't go burning down any buildings." || [[sr:Destruction|Destruction]]
+"Don't suppose you'd enchant my sword? Dull old blade can barely cut butter." || [[sr:Enchanting|Enchanting]]
+"Best offense is a good defense, am I right?" || [[sr:Heavy Armor|Heavy Armor]]
+"You're the one that casts those illusions. Impressive." || [[sr:Illusion|Illusion]]
+"Lightly armored means light on your feet. Smart." || [[sr:Light Armor|Light Armor]]
+"Go fiddling with any locks around here, we're going to have a real problem." || [[sr:Lockpicking|Lockpicking]]
+"You're like me, eh? Don't fancy those clunky two-handed weapons." || [[sr:One-handed|One-handed]]*
+"I find your hand in my pocket, I'm going to cut it off." || [[sr:Pickpocket|Pickpocket]]
+"I know your kind, always sneaking about." || [[Skyrim:Sneak|Sneak]]
+"I have a lot of respect for the Restoration School. Skyrim could use more healers." || [[sr:Restoration|Restoration]]
+"Hands to yourself, sneak thief." || [[sr:Sneak|Sneak]] or [[sr:Pickpocket|Pickpocket]]
+"Heard about you and your honeyed words..." || [[sr:Speech|Speech]]
+"Don't think you can barter with me like I'm one of those damned shopkeepers." || [[sr:Speech|Speech]]
+"The gods gave you two hands, and you use them both for your weapon. I can respect that." || [[sr:Two-handed|Two-handed]]
+"The Imperials think us lawless beasts. I am proof of their ignorance." || None || Any
+"The Imperials think we need their laws. Pffft." || None || Any
+"The Empire didn't think we could take the Reach, but here we are." ||Stormcloaks control Markarth|| [[sr:Markarth|Markarth]]
+"We couldn't have taken this city without you, sir."* ||Stormcloaks control Solitude||  [[sr:Solitude|Solitude]] 
+"Solitude is as glorious as they said it was. Nothing like Falkreath where I grew up." ||Stormcloaks control Solitude|| [[sr:Solitude|Solitude]]
+"It's too bad they executed [[Skyrim:Roggvir|Roggvir]] before we got here." ||Stormcloaks control Solitude|| [[sr:Solitude|Solitude]]
+"We won't give up this port to the Imperials without a fight, don't you worry." ||Stormcloaks control Dawnstar|| Dawnstar
+"Winterhold belongs to Skyrim, not the [[sr:Imperial Legion|Imperials]], or the [[sr:College of Winterhold (faction)|Mages]]." ||Stormcloaks control Winterhold|| Winterhold
+"I grew up hearing songs about Eyldi the Bear! She wrestled a storm out of the sky!" ||Stormcloaks control Falkreath|| Falkreath
+"You don't seem to realize there's a war on. What you are is a damn Imperial spy!" || Wearing Imperial uniform || {{huh}}
+"You've got a lot of nerve, walking around here dressed like an Imperial Legionnaire." || Wearing Imperial uniform || {{huh}}
+"Let's see those Stormcloaks try to break into this canyon." ||Empire controls Markarth|| Markarth
+"This city still reeks with the stench of the Stormcloaks. Makes me sick to my stomach." ||Empire controls Riften|| Riften
+"Why we bothered to capture Riften I'll never understand. Just look at this place." ||Empire controls Riften|| Riften
+"Now that the Empire's arrived in Riften, we've finally established a launching point into Morrowind... Just in case." ||Empire controls Riften|| Riften
+"Seems like capturing Riften is turning out to be more of a hassle than a benefit. But what do I know?" ||Empire controls Riften|| Riften
+"Dawnstar is the last port of call before Solitude. Damn rebels aren't taking it." ||Empire controls Dawnstar|| Dawnstar
+"Don't worry about those Stormcloaks. You're safe from them here. As if they'd want the place anyway." ||Empire controls Winterhold|| Winterhold
+"Just my luck, stuck in the sticks with this crazy old woman." ||Empire controls Falkreath|| Falkreath
+"Is that right? Here's how the Legion deals with rebel scum like you." ||Wearing Stormcloak uniform|| [[Skyrim:Captain Aldis|Captain Aldis]] only
+"What do you think you're doing, walking around dressed like a damn Stormcloak traitor?" ||Wearing Stormcloak uniform|| {{huh}}
+"<Town>'s under my protection. You watch yourself, now." || Any || None
+"You've come to Dawnstar at a strange time, friend. Seems everyone in this town is having nightmares..." || Dawnstar || None
+"The people here are still plagued with nightmares. It's... unnatural." || Dawnstar || Have not completed [[sr:Waking Nightmare|Waking Nightmare]]
+"Dangerous post, Dawnstar. If the bandits don't get you, the animals will." || Dawnstar || None
+"Old lady [[Skyrim:Frida|Frida]] is a grouch, but she sure can whip up a cure for the Rattles fast." || Dawnstar || None
+"You should talk to [[Skyrim:Rustleif|Rustleif]]. Get some proper steel." || Dawnstar || None
+"Outsiders aren't trusted in Markarth. Best keep that in mind." || Markarth || None
+"This is Markarth, traveler. Safest city in [[sr:the Reach|the Reach]]." || Markarth || None
+"Can't believe I'm posted here. Even the beds are made of stone." || Markarth || None
+"Break the law in Markarth, and it's off to [[sr:Cidhna Mine|Cidhna Mine]] with you." || Markarth || None
+"First time in Markarth, traveler? Take my advice. You see anything, don't get involved. The city guard will take care of it." || Markarth || First visit to city
+"See, there you go. Getting involved. Don't ask too many questions in Markarth. Safer for everyone that way." || Markarth || First visit to city
+"You're our favorite kind of traveler, then. The market area is just inside in the gate." || Markarth || First visit to city
+"Head on in. Keep your nose clean, and you won't have any problems with us." || Markarth || First visit to city
+"Caught a case of [[sr:Rockjoint|Rockjoint]], once. [[sr:Bothela|Bothela]] at [[sr:the Hag's Cure|the Hag's Cure]] fixed me right up." || Markarth || None
+"Let me guess - you need a drink. It's the [[Skyrim:Silver-Blood Inn|Silver-Blood Inn]] you're looking for." || Markarth || None
+"You should see that [[sr:Moth gro-Bagol|Orc]] over in [[sr:Understone Keep|Understone Keep]], have him forge you some new armor..." || Markarth || None
+"By Shor, you're hauling around a lot of junk. Best stop in at the [[sr:Arnleif and Sons Trading Company|Arnleif and Sons Trading Company]], sell it off." || Markarth || None
+"[[sr:Jarl|Jarl]] [[sr:Igmund|Igmund]] sits on the Mournful Throne. You can find him in [[sr:Understone Keep|the keep]], in the back end of the city inside the mountain." || Markarth || City 
+"You here to see the [[sr:Igmund|Jarl]]? No sudden moves, understand?" || Markarth || City under Imperial control, in Understone Keep
+"Whole dwarven city underneath the keep. [[Skyrim:Nchuand-Zel|Nchuand-Zel]]. Best steer clear if you don't want a [[sr:Dwarven Centurion|Steam Centurion]] carving you up." || Markarth || None
+"Ah, Vlindrel Hall's a fine home, if you can afford it. The steward in the keep can tell you more." || Markarth || Haven't purchased [[sr:Vlindrel Hall|Vlindrel Hall]]
+"So you bought Vlindrel Hall, eh? Wish I could afford a house that nice." || Markarth || Purchased [[sr:Vlindrel Hall|Vlindrel Hall]]
+"City's quiet enough now. But when the sun goes down, you best be on your guard." || Riften || None
+"Careful. Riften's not the safest place for a nighttime stroll." || Riften || None
+"So is it Riften or Rifton? This place has changed its name so many times, I can't even remember." || Riften || None
+"You could say the Ratway is the city under the city. Dark, dangerous, and no place for decent folk." || Riften || None
+"There's fine steel at the [[Skyrim:The_Scorched_Hammer|Scorched Hammer]], if you fancy a new blade." || Riften || None
+"If it's a bed you need, talk to [[Skyrim:Keerava|Keerava]] in the [[Skyrim:The_Bee_and_Barb|Bee and Barb]]. She'll set you right." || Riften || None
+"Need a drink, you go to the [[Skyrim:The_Bee_and_Barb|Bee and Barb]]. Stay out of the [[Skyrim:The_Ragged_Flagon|Ragged Flagon]], Stay out of the [[Skyrim:The_Ratway|Ratway]]." || Riften || 
+"There's an [[sr:Elgrim's Elixirs|apothecary]] in town, yeah. But it's down on the lower walkway, so stay sharp if you go down there." || Riften || None
+"Welcome to Riften, home of the Thieves Guild. Or so they'd have you believe. It's all lies. They're just thugs... vermin, creeping around the Ratway." || Riften || None
+"The Thieves Guild used to run this city. Now they're nothing but braggarts and bullies, rotting to death down in their Ratway..." || Riften || None
+"If you're looking to settle in Riften, there's a house for sale - [[sr:Honeyside|Honeyside]]. See the steward in the keep if you want it." || Riften || Haven't purchased [[
+"Smart thing you did, buying Honeyside. Nice place, and why pay for an inn?" || Riften || Purchased [[sr:Honeyside|Honeyside]]
+"If you need potions, head over to [[sr:Angeline's Aromatics|Angeline's Aromatics]]." || Solitude || None
+"I don't abide fancy clothes, but you look like you might. I hear [[sr:Radiant Raiment|Radiant Raiment]] has a large selection." || Solitude || None
+"[[sr:The Winking Skeever|The Winking Skeever]]'s got warm beds and cold mead. You look like you could use both." || Solitude || None
+"You can sell off that junk at [[sr:Bits and Pieces|Bits and Pieces]]." || Solitude || None
+"If its arms or armor you need, see [[sr:Beirand|Beirand]] at [[sr:Castle Dour|Castle Dour]]. Bloody good blacksmith, that one." || Solitude || None
+"Been up to the [[sr:Blue Palace|Blue Palace]]? {{sic|Its|It's}} a sight to see, even if it is filled with fops..." || Solitude || None
+"The Emperor's cousin [[sr:Vittoria Vici|Vittoria Vici]]'s getting married soon. The reception is public, anyone in Solitude can attend." || Solitude || [[sr:Bound Until Death|Bound Until 
+"[[sr:Proudspire Manor|Proudspire Manor]], now there's a fine home. Up for sale, too. If you're interested, talk to the steward, in the keep." || Solitude || Haven't purchased [[sr:Proudspire 
+"You own Proudspire Manor, hmm? Beautiful house. At least from the outside." || Solitude || Purchased [[sr:Proudspire Manor|Proudspire Manor]]
+"If you need potions, you should try [[sr:Arcadia's Cauldron|Arcadia's Cauldron]]." || Whiterun || None
+"You look tired, friend. [[sr:The Bannered Mare|The Bannered Mare]] has beds for rent." || Whiterun || None
+"The Bannered Mare's got warm beds and cold mead. You look like you could use both." || Whiterun || None
+"Need a blade? You should talk to [[Skyrim:Adrianne Avenicci|Adrianne]], at the forge." || Whiterun || None
+"Need supplies? See Belethor at his store. Sleazy little man, but he has good stock." || Whiterun || None
+"Be glad you're here in the city, and not out in [[sr:Riverwood|Riverwood]]. Those poor sods don't even have a wall." || Whiterun || [[Skyrim:Civil War|Civil War]] not yet begun.
+"I worry about the other settlements in the hold. Unwalled, lightly manned - prime targets for those damned dragons." || Whiterun || [[Skyrim:Dragon Rising|Dragon Rising]] completed.
+"Thinking of settling in? There's a home for sale - [[Skyrim:Breezehome|Breezehome]]. You should talk to the steward up in the keep if you're interested." || Whiterun || Haven't purchased [[
+"You're that one lives in Breezehome, right? Fine place. Almost bought it myself." || Whiterun || Purchased [[sr:Breezehome|Breezehome]]
+"[[sr:Rorikstead|Rorikstead]]'s a nice little hamlet, but a boring post for a guard. If a dragon attacks, well... then it'll be a different story." || Whiterun || [[Skyrim:Dragon Rising|Dragon 
+"Cause trouble in Whiterun, and I'll haul you into the Dragonsreach dungeon myself." || Whiterun || None
+"You should talk to the Jarl up in [[Skyrim:Dragonsreach|Dragonsreach]], lend any aid you can." || Whiterun || {{huh}}
+"The guards in Dragonsreach say you've aided the Jarl. On behalf of Whiterun, I thank you." || Whiterun || [[Skyrim:Bleak Falls Barrow (quest)|Bleak Falls Barrow]] completed, and stage 90 of [[
+"I've seen you helping the Jarl. If only all visitors to Whiterun were as noble." || Whiterun || {{huh}}
+"You should unload some of that unwanted gear. Head over to [[sr:Sadri's Used Wares|Sadri's Used Wares]], talk to the Elf." || Windhelm || None
+"We got a nickname for anyone who trifles with us guards here in Windhelm - "Suicide." " || Windhelm || None
+"The Dunmer get their drinks down at the [[sr:New Gnisis Cornerclub|New Gnisis Cornerclub]]. Why they can't just call it a tavern is beyond me..." || Windhelm || None
+"Stay away from the [[sr:Aretino Residence|Aretino Residence]]. That place is cursed." || Windhelm || None
+"My heart goes out to Clan Shatter-Shield. [[sr:Blood on the Ice|Kin murdered]], family warhammer stolen... There's no fairness in all that." || Windhelm || [[Skyrim:Blood on the Ice|Blood on 
+"If it's bed or board you're after, [[sr:Candlehearth Hall|Candlehearth Hall]]'s got both." || Windhelm || None
+"If you need an [[sr:Nurelion|apothecary]], [[sr:the White Phial (place)|the White Phial]] has respectable stock." || Windhelm || None
+"By the gods, you're diseased. Get yourself to [[sr:the White Phial (place)|the White Phial]] and purchase a remedy, before you infect us all." || Windhelm || Have a disease {{vn}}
+"Hjerim is a fine house, and it's up for sale. You should talk to the steward in the keep if you're interested." || Windhelm || Haven't purchased [[sr:Hjerim|Hjerim]]
+"Don't think you'll get special treatment just because you have a house in the city..." || Windhelm || Purchased [[sr:Hjerim|Hjerim]]
+"If you're here for sight-seeing, then you've seen the sights. Might as well head somewhere warmer." || Winterhold || None
+"Take care if you go venturing too far from town. That's a bitter wind coming off the [[sr:Sea of Ghosts|Sea of Ghosts]]." || Winterhold || None
+"Hard to believe I ever complained about [[sr:Riften|Riften]] being cold..." || Winterhold || None
+"Beware of [[Skyrim:Frostmere Crypt|Frostmere Crypt]], friend. Heard some bandits are living in the ruins now." || Dawnstar || None
+"Giants have been spotted up near [[Skyrim:Red Road Pass|Red Road Pass]]. Best to keep away and avoid it entirely." || Dawnstar || None
+"Travel southeast and you'll find an [[Skyrim:Dushnikh Yal|Orc stronghold]], up around the old [[Skyrim:Dushnikh Mine|Dushnikh orichalcum mine]]." || Markarth || None
+"There's a small skeever den just east of the city, at [[Skyrim:Reachwater Rock|Reachwater Rock]]." || Markarth || None
+"Beware the region northeast, across the river. Forsworn have taken refuge in [[Skyrim:Broken Tower Redoubt|Broken Tower Redoubt]] and [[Skyrim:Red Eagle Redoubt|Red Eagle Redoubt]]." || 
+"The Forsworn have been spotted to the north, near [[Skyrim:Bruca's Leap Redoubt|Bruca's Leap Redoubt]]." || Markarth || None
+"Lots of nasty holes in the Reach, and [[Skyrim:Blind Cliff Cave|Blind Cliff Cave]] is one of them. A filthy Hagraven nest, northeast of here." || Markarth || None
+"There's an evil to the north, friend, and its name is [[Skyrim:Ragnvald|Ragnvald]]. A tomb like so many in Skyrim, where the dead have found no peace." || Markarth || None
+"If you journey north, stay well away from [[sr:Snapleg Cave|Snapleg Cave]]. Damn [[sr:Hagraven|Hagravens]] have infested the place." || Riften || None
+"There's a foul presence coming from [[sr:Darklight Tower|Darklight Tower]], southwest of the city. Some say the place is home to necromancers." || Riften || None
+"City got attacked once by those damned bandits, come east across the lake, from [[sr:Faldar's Tooth|Faldar's Tooth]]. They won't be trying that again." || Riften || None
+"Best not to go wandering east of the city. Bandits been seen around [[sr:Broken Helm Hollow|Broken Helm Hollow]]." || Riften || None
+"By the gods, a dragon's been sighted just south of the city, flying around [[Skyrim:Lost_Tongue_Overlook|Lost Tongue Overlook]]." || Riften || None
+"Talk of strange happenings at [[Skyrim:Autumnshade_Clearing|Autumnshade Clearing]], just north of the lake. My guess? [[Skyrim:Spriggan|Spriggans]]." || Riften || None
+"If you must venture southwest, stay clear of [[sr:Volskygge|Volskygge]]. It's a cursed place, a tomb where the dead still live..." || Solitude || None
+"The road to Whiterun's not safe these days. Lots of travelers just.. disappear, [[sr:Chillwind Depths|south of Dragon Bridge]]. Can't find a trace of them." || Solitude || None
+"Off the coast a ways to the east, you'll find the [[sr:Wreck Of The Brinehammer|wreck of the Brinehammer]]. Never know what treasures may still be aboard. || Solitude || None
+"You heard of [[sr:Ravenscar Hollow|Ravenscar Hollow]]? Cave on the island to the west. Place is a roost for those foul [[sr:Hagraven|Hagravens]]." || Solitude || None
+"[[sr:Pinemoon Cave|Pinemoon Cave]] is down to the southwest, but it ain't fit for exploring. There are stories.. Vampires, some say..." || Solitude || None
+"The circle of stones to the southwest? That's [[sr:Secunda's Kiss|Secunda's Kiss]]. The Giants hold it sacred, so tread carefully." || Whiterun || None
+"Looking to do some hunting? Avoid [[sr:Brittleshin Pass|Brittleshin Pass]]. It's southeast of here." || Whiterun || None
+"If you're heading east, stay clear of [[sr:Hillgrund's Tomb|Hillgrund's Tomb]]. Thing about those old crypts - the dead have trouble staying that way." || Whiterun || None
+"Careful if you cross the river to the east. Old [[sr:Hajvarr Iron-Hand|Hajvarr Iron-Hand]] and his brigands are holed up in that cave, [[sr:White River Watch|White River Watch]]." || Whiterun || None
+"You know I saw something near [[sr:Shimmermist Cave|Shimmermist Cave]] to the northeast. Some sort of creature. Small and wicked, never seen its like before." || Whiterun || None
+"Yesterday, I saw a dragon fly right over the city. Headed northeast. Toward [[Skyrim:Shearpoint|Shearpoint]], by the looks of it." || Whiterun || None
+"You hear the news? There's a dragon roosting up on [[sr:Mount Anthor|Mount Anthor]], to the northwest." || Windhelm || None
+"Tell me you've seen them. Those... things. Small and evil, like something out of a nightmare. They come from [[sr:Stillborn Cave|Stillborn Cave]], to the north. I know it." || Windhelm || None
+"Maybe you've seen masts sticking out of the water to the northeast? That would be the [[sr:Wreck of the Winter War|Wreck of the Winter War]]. Fine vessel, back in its day." || Windhelm || None
+"South of here, and west of the road, lies [[sr:Cronvangr Cave|Cronvangr Cave]]. Stay away from that cursed place, and the vampires that call it home." || Windhelm || None
+"I've no problem with your kind, Orc. But that stronghold they've got in the southeast? [[sr:Narzulbur|Narzulbur]]? It's an affront to my people." || Windhelm || Player is an [[sr:Orc|Orc]]
+"I've no problem with Orcs. But that stronghold they've got in the southeast? [[sr:Narzulbur|Narzulbur]]? It's an affront to my people." || Windhelm || None
+"Across the river to the northeast lies [[Skyrim:Yngol Barrow|Yngol Barrow]]. Stear clear of the foul place, lest the walking dead claim you as their own." || Windhelm || None
+"The Eye of Talos was a fine ship, once. Now it lies [[sr:Wreck of The Pride of Tel Vos|wrecked]], off an island just north of here." || Windhelm || None

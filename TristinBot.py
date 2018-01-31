@@ -211,6 +211,14 @@ async def on_message(message):
 			print(mist)
 			await client.send_message(message.channel,"Better luck next time!")
 	await client.process_commands(message)
+
+@client.command()
+async def guard():
+	lines = open('skyrim1.txt').read().splitlines()
+	line = secrets.choice(lines)
+	left_text = line.partition("|")[0]
+	left_text = left_text.partition("[")[0]
+	await client.say(left_text)
 # @client.command(pass_context = True)
 # async def game(ctx,*args):
 client.run('NDA1MDUzMDgxOTk5NjM4NTI5.DUf0dA.DGPj48lv23Gk5z0lYqzzYi87z3k')
