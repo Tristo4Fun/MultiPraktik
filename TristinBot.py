@@ -7,7 +7,7 @@ from lxml import html
 import requests
 from imgurpython import ImgurClient
 import praw
-
+import keyboard
 #initialising Reddit user
 reddit = praw.Reddit(client_id='v3db9YiZJ4C6Qg',client_secret='XLaHy5KZKAWXkg87ZIAXI5AzcVI',user_agent='aeaeae')
 
@@ -25,7 +25,7 @@ async def on_ready():
 # async def on_message(message):
 # 	new = ""
 # 	for s in message.content:
-# 		new+=s
+#		new+=s
 # 	if "who" in message.content and "am" in message.content and "i" in message.content:
 # 		await client.send_message(message.channel,message.author)
 
@@ -211,16 +211,36 @@ async def on_message(message):
 			print(mist)
 			await client.send_message(message.channel,"Better luck next time!")
 	await client.process_commands(message)
+@client.command()
+async def drop(ctx):
+    erangel = ['Stalber','Woodcutters Camp','Gatka','Mansion','Zharki','School','Farm','Quarry','Prison','Pier Town','Hospital','Swamp town','Kameshki','Shelter','Yasnaya Polyana','Novorepnoye','Georgopol','Severny','Pochinki','Lipovka','Mylta Power','Primorsk','Shooting Range','Rozhok','Mylta','Military Base','Water Town','Ruins','Split (everyone has their own houses)','Crate Hunt (choose small drop near cars)']
+    miramar=['Power Grind','San Martin','El Pozo','Ladrillera','Minas Generales','Torre Ahumada','Campo Militiar','Trailer Park','El Azahar','Impala','Ruins','Hacienda del Patron','Tierra Bronca','La Cobreria','Minas del Sur','La Bendita','Valle del Mar','Crater Fields','Puerto Paraiso','Minas del Valle','Water Treatment','Los Higos','Prison','Chumacera','Junkyard','Los Leones','Monte Nuevo','Pecado','Cruz del Valle','Graveyard''Split (everyone has their own houses)','Crate Hunt (choose small drop near cars)']
+    i=secrets.randbelow(len(erangel)-1)
+    k=secrets.randbelow(len(miramar)-1)
+    if ctx.upper()=='MIRAMAR':
+        await client.say('Drop at ' + miramar[k])
+    elif ctx.upper()=='ERANGEL':
+        await client.say('Drop at ' + erangel[i])
+    else:
+        await client.say('... erangel ili miramar')
 
 @client.command()
 async def guard():
 	lines = open('skyrim1.txt').read().splitlines()
 	line = secrets.choice(lines)
 	left_text = line.partition("|")[0]
-	left_text = left_text.partition("[")[0]
+	#left_text = left_text.partition("[")[0]
 	await client.say(left_text)
-# @client.command(pass_context = True)
-# async def game(ctx,*args):
+
+@client.command(pass_context=True)
+async def afk(ctx):
+	msg = '{0.author.mention} is afk'.format(ctx.message)
+	await client.say(msg)
+
+@client.event
+async def on_message_edit(before,after):
+	await client.send_message(before.channel,"Why did you ("+before.author.mention+") change \""+before.content +"\" to \""+after.content+"\"?")
+
 client.run('NDA1MDUzMDgxOTk5NjM4NTI5.DUf0dA.DGPj48lv23Gk5z0lYqzzYi87z3k')
 #  @client.command()
 # async def bye(*args):
