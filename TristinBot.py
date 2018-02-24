@@ -237,10 +237,24 @@ async def afk(ctx):
 	msg = '{0.author.mention} is afk'.format(ctx.message)
 	await client.say(msg)
 
-@client.event
-async def on_message_edit(before,after):
-	await client.send_message(before.channel,"Why did you ("+before.author.mention+") change \""+before.content +"\" to \""+after.content+"\"?")
+# @client.event
+# async def on_message_edit(before,after):
+# 	await client.send_message(before.channel,"Why did you ("+before.author.mention+") change \""+before.content +"\" to \""+after.content+"\"?")
 
+@client.command(pass_context = True)
+async def mock(ctx,*args):
+	print("debug")
+	out = ""
+	print(args)
+	for arg in args:
+		chars = list(arg)
+		for i in range(0, len(chars)):
+			if secrets.randbelow(2) == 1:
+				out+=chars[i].upper()
+			else:
+				out+=chars[i]
+		out+=" "
+	await client.send_message(client.get_channel('390922580657438721'),out)
 client.run('NDA1MDUzMDgxOTk5NjM4NTI5.DUf0dA.DGPj48lv23Gk5z0lYqzzYi87z3k')
 #  @client.command()
 # async def bye(*args):
