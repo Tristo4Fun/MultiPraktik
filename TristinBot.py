@@ -7,7 +7,13 @@ from lxml import html
 import requests
 from imgurpython import ImgurClient
 import praw
-import keyboard
+import os
+#reading channel info
+ch = open('channels.txt').read().splitlines()
+risk = ch[0]
+retar = ch[1]
+daily = ch[2]
+
 #initialising Reddit user
 reddit = praw.Reddit(client_id='v3db9YiZJ4C6Qg',client_secret='XLaHy5KZKAWXkg87ZIAXI5AzcVI',user_agent='aeaeae')
 
@@ -16,8 +22,28 @@ imgclient_id = '97b71b83dba9104'
 imgclient_secret = 'ea5c168dc44c9af8f82ed23ab07481a992da28a3'
 imgclient = ImgurClient(imgclient_id, imgclient_secret)
 
-
 client = Bot(description="Najbolji bot north of the wall", command_prefix="!", pm_help = False, )
+
+# @client.event
+# async def my_background_task():
+# 	print("yo")
+# 	line = open('twitter.txt').read()
+# 	with open('twitter.txt', 'w') as f:
+# 		f.write('')
+# 	if len(line)!=0:
+# 		await client.send_message(client.get_channel('417039633122328606'),line)
+
+async def my_background_task():
+	await client.wait_until_ready()
+	channel = discord.Object(id=daily)
+	while not client.is_closed:
+		line = open('twitter.txt').read()
+		with open('twitter.txt', 'w') as f:
+			f.write('')
+		if len(line)!=0:
+			await client.send_message(channel, line)
+		await asyncio.sleep(5) # task runs every 60 seconds
+
 @client.event
 async def on_ready():
 	print("Bot is ready!")
@@ -133,8 +159,8 @@ async def risky():
 	random_post_number = secrets.randbelow(30)
 	for i,post in enumerate(posts):
 		if i==random_post_number:
-			await client.send_message(client.get_channel('407188548220092426'),post.title)
-			await client.send_message(client.get_channel('407188548220092426'),post.url)
+			await client.send_message(client.get_channel(risk),post.title)
+			await client.send_message(client.get_channel(risk),post.url)
 
 
 @client.command(pass_context = True)
@@ -241,11 +267,11 @@ async def afk(ctx):
 # async def on_message_edit(before,after):
 # 	await client.send_message(before.channel,"Why did you ("+before.author.mention+") change \""+before.content +"\" to \""+after.content+"\"?")
 
-@client.command(pass_context = True)
+@client.command(pass_context=True)
 async def mock(ctx,*args):
-	print("debug")
 	out = ""
 	print(args)
+	print('{0.author.mention} wrote this'.format(ctx.message))
 	for arg in args:
 		chars = list(arg)
 		for i in range(0, len(chars)):
@@ -254,8 +280,36 @@ async def mock(ctx,*args):
 			else:
 				out+=chars[i]
 		out+=" "
-	await client.send_message(client.get_channel('390922580657438721'),out)
-client.run('NDA1MDUzMDgxOTk5NjM4NTI5.DUf0dA.DGPj48lv23Gk5z0lYqzzYi87z3k')
+	await client.say(out)
+	await client.send_file(ctx.message.channel, 'Resourses\Mocking-Spongebob.jpg')
+
+
+@client.command()
+async def community():
+	lines = open('community-quotes.txt').read().splitlines()
+	line = secrets.choice(lines)
+	await client.say(line)
+
+@client.command(pass_context=True)
+async def retard(ctx,*args):
+	sent = ""
+	firstspace = False
+	for arg in args[:-1]:
+		if firstspace == False:
+			firstspace = True
+		else:
+			sent+=" "
+		sent+=arg
+
+	ime = args[-1]
+	await client.send_message(client.get_channel(retar),"\""+sent+"\""+" - "+ime)
+	await client.delete_message(ctx.message)
+# @client.event()
+# async def on_message(message):
+# 	#TODO figure out how to recieve data from twitter.py, fix the import twitter
+# 	await client.send_message(message.channel, tekst)
+client.loop.create_task(my_background_task())
+client.run('NDE4MDIxNDA4NzMyNDc5NDg5.DXbiaw.CgeUtjLAXvzunvjkWIdOKrQubOY')
 #  @client.command()
 # async def bye(*args):
 # 	Application.Start(yourexename.exe);
