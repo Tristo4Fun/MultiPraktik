@@ -15,11 +15,11 @@ retar = ch[1]
 daily = ch[2]
 
 #initialising Reddit user
-reddit = praw.Reddit(client_id='v3db9YiZJ4C6Qg',client_secret='XLaHy5KZKAWXkg87ZIAXI5AzcVI',user_agent='aeaeae')
+reddit = praw.Reddit(client_id='CLIENT ID',client_secret='CLIENT SECRET',user_agent='USER AGENT')
 
 #initialising Imgur user
-imgclient_id = '97b71b83dba9104'
-imgclient_secret = 'ea5c168dc44c9af8f82ed23ab07481a992da28a3'
+imgclient_id = 'CLIENT ID'
+imgclient_secret = 'CLIENT SECRET'
 imgclient = ImgurClient(imgclient_id, imgclient_secret)
 
 client = Bot(description="Najbolji bot north of the wall", command_prefix="!", pm_help = False, )
@@ -309,7 +309,7 @@ async def retard(ctx,*args):
 # 	#TODO figure out how to recieve data from twitter.py, fix the import twitter
 # 	await client.send_message(message.channel, tekst)
 client.loop.create_task(my_background_task())
-client.run('NDE4MDIxNDA4NzMyNDc5NDg5.DXbiaw.CgeUtjLAXvzunvjkWIdOKrQubOY')
+client.run('BOT TOKEN')
 #  @client.command()
 # async def bye(*args):
 # 	Application.Start(yourexename.exe);
