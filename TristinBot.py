@@ -8,6 +8,8 @@ import requests
 from imgurpython import ImgurClient
 import praw
 import os
+import io
+from bs4 import BeautifulSoup
 #reading channel info
 ch = open('channels.txt').read().splitlines()
 risk = ch[0]
@@ -323,7 +325,6 @@ async def bleep(*args):
 	""" Writes "bloop" within 15 minutes. Syntax : !bleep """
 	await asyncio.sleep(secrets.randbelow(900))
 	await client.say("bloop")
-
 
 client.loop.create_task(my_background_task())
 client.run('BOT TOKEN')
