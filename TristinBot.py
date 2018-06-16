@@ -16,9 +16,9 @@ risk = ch[0]
 retar = ch[1]
 daily = ch[2]
 
-dict = {'domebijuk':'To bail on a plan minutes from meeting people that are meters away',
-'LMOA':'Laughing My Obese Ass',
-'4?':'Are you up for a(multiple) game(s) of Fortnite?'}
+dict = {'ExampleKey1 ':'ExapleDefinition1',
+'ExampleKey2 ':'ExapleDefinition2',
+'ExampleKey3 ':'ExapleDefinition3'}
 
 dictLines = open('dictBoy.txt').read().splitlines()
 keyLine = ""
@@ -199,14 +199,6 @@ async def twitch(*args):
 	""" Name of a twitch streamer into link. Syntax: !twitch streamerName"""
 	strm = "https://www.twitch.tv/"+ args[0]
 	await client.say(strm)
-
-# if the message starts with $greet the bot will tell the world who reacted with what emoji
-@client.event
-async def on_message(message):
-	if message.content.startswith('$greet'):
-		msg = await client.send_message(message.channel, 'React with thumbs up or thumbs down.')
-		res = await client.wait_for_reaction(['👍', '👎'], message=msg)
-		await client.send_message(message.channel, '{0.user} reacted with {0.reaction.emoji}!'.format(res))
 
 #hangman
 #currently shows the random word while guessing and doesn't have an ending condition
@@ -439,6 +431,7 @@ async def ebay(*args):
 async def what(*args):
 	"""Lookup a meaning of word Syntax : !what _word_ """
 	str1 = ' '.join(args)
+	str1 = str1+' '
 	if(str1 in dict):
 		await client.say(str(dict[str1]))
 
