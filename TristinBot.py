@@ -10,6 +10,9 @@ import praw
 import os
 import io
 from bs4 import BeautifulSoup
+import datetime
+from urllib.request import urlopen
+import json
 #reading channel info
 ch = open('channels.txt').read().splitlines()
 risk = ch[0]
@@ -37,18 +40,62 @@ imgclient_id = 'CLIENT ID'
 imgclient_secret = 'CLIENT SECRET'
 imgclient = ImgurClient(imgclient_id, imgclient_secret)
 
-client = Bot(description="Najbolji bot north of the wall", command_prefix="!", pm_help = False, )
+client = Bot(description="Best bot north of the wall", command_prefix="!", pm_help = False, )
+client.remove_command('help')
 
-async def my_background_task():
-	await client.wait_until_ready()
-	channel = discord.Object(id=daily)
-	while not client.is_closed:
-		line = open('twitter.txt').read()
-		with open('twitter.txt', 'w') as f:
-			f.write('')
-		if len(line)!=0:
-			await client.send_message(channel, line)
-		await asyncio.sleep(5) # task runs every 60 seconds
+@client.command(pass_context = True)
+async def help(ctx):
+	embed=discord.Embed(title="MultiPraktik commands", url="https://github.com/TristoKrempita/MultiPraktik", description="All the commands and their syntaxes", color=0x83150a)
+	embed.set_author(name="Tristan", url="https://github.com/tristokrempita", icon_url="https://imgur.com/ZvlwusT.jpg")
+	embed.add_field(name="!help", value="Shows this message", inline=False)
+	embed.add_field(name="!random |value_1 value_2 ... value_n|", value="Decides randomly from given words", inline=False)
+	embed.add_field(name="!quote", value="Gets random quote from somewhere", inline=False)
+	embed.add_field(name="!plagueis", value="Writes the Have you heard the tragedy of darth Plagueis the wise...", inline=False)
+	embed.add_field(name="!dab", value="Makes the bot dab," ,inline=False)
+	embed.add_field(name="!hype", value="Hypes you up", inline=False)
+	embed.add_field(name="!killhype" , value="Kills hype", inline=False)
+	embed.add_field(name="!clap |word_1 word_2 ... word_n|" , value="Turns message into 👏 meme", inline=False)
+	embed.add_field(name="!stats |steam_url_name|" , value="Gets CSGO stats from steamuser", inline=False)
+	embed.add_field(name="!pic" , value="Gets random picture from imgur", inline=False)
+	embed.add_field(name="!meme" , value="Gets random meme from imgur", inline=False)
+	embed.add_field(name="!red |name_of_subreddit|", value="Gets a random post from a subreddit", inline=False)
+	embed.add_field(name="!risky" , value="Random NSFW post from reddit into a seperate channel", inline=False)
+	embed.add_field(name="!game |Hey @ everyone let's play some |word_1 word_2 ... word_n||", value="Declares intention to play to @ everyone", inline=False)
+	embed.add_field(name="!twitch |name_of_twich_channel|" , value="Name of a twitch streamer into link", inline=False)
+	embed.add_field(name="!drop |Fortnite / Erangel / Miramar|" , value="Random drop location in PUBG/Fortnite", inline=False)
+	embed.add_field(name="!guard" , value="Random quote from guards in Skyrim", inline=False)
+	embed.add_field(name="!afk" , value="Declares you afk in chat", inline=False)
+	embed.add_field(name="!mock |word_1 word_2 ... word_n|" , value="Turns text into SpongeBob mock text", inline=False)
+	embed.add_field(name="!community" , value="Random quote from the TV show 'Community'", inline=False)
+	embed.add_field(name="!quotethis |quote_word_1 quote_word_2 quote_author_name|" , value="Turns text into a quote and writes it to a separate channel", inline=False)
+	embed.add_field(name="!bleep" , value="Writes \"bloop\" within 15 minutes", inline=False)
+	embed.add_field(name="!temp", value="Gets the temperature", inline=False)
+	embed.add_field(name="!ebay |item_name lower_price_limit higher_price_limit|" , value="Gets cheapest eBay listing (including shipping)", inline=False)
+	embed.add_field(name="!dictionary_add |word chosen_word(s) definition chosen_definition_word(s)|", value="You can add a word and its definition into the dictionary and people will vote on it, if it has more than 3 👍 emotes it will be added, if it gets 3 👎 it will get deleted from the entry\n", inline=False)
+
+	await client.send_message(client.get_channel(ctx.message.channel.id),embed=embed)
+	embed=discord.Embed(color=0x83150a)
+	embed.add_field(name="!dictionary", value="Lists all entries in the dictionary\n", inline=False)
+	embed.add_field(name="!what |phrase_1|" , value="Lookup a meaning of word/phrase in your own dictionary\n", inline=False)
+	embed.add_field(name="!reply |message_ID|" , value="You can now reply to specific messages\n", inline=False)
+	embed.add_field(name="!react |message_ID|" , value="SuperCoolCreator can use this command to react to various messages using the bot\n", inline=False)
+	embed.add_field(name="!albumtoimg |imgur link of album|" , value="Turns an Imgur album link into picture links\n", inline=False)
+	embed.add_field(name="!typing" , value="Makes the text under the chat box say that the bot is typing\n", inline=False)
+	embed.add_field(name="!countdown |time_in_minutes| or !countdown current" , value="A stopwatch\n", inline=False)
+	embed.add_field(name="!play |keyword_in_game_title| |amount_of_searches| (optional, default=5)" , value="Lists all games containing keyword and a clickable Steam link\n", inline=False)
+	#embed.set_footer(text="This message was brought to you by me")
+	await client.send_message(client.get_channel(ctx.message.channel.id),embed=embed)
+
+# async def my_background_task():
+# 	await client.wait_until_ready()
+# 	channel = discord.Object(id=daily)
+# 	while not client.is_closed:
+# 		line = open('twitter.txt').read()
+# 		with open('twitter.txt', 'w') as f:
+# 			f.write('')
+# 		if len(line)!=0:
+# 			await client.send_message(channel, line)
+# 		await asyncio.sleep(5) # task runs every 60 seconds
 
 @client.event
 async def on_ready():
@@ -525,8 +572,59 @@ async def reply(ctx,*args):
 	await client.say(f" ```{msg.author.name} : {msg.content}``` "+ctx.message.author.name+" : "+' '.join(args[1:]))
 	await client.delete_message(ctx.message)
 
+@client.command(pass_context=True)
+async def typing(ctx):
+	"""Makes the text under the chat box say Name_of_bot is typing..."""
+	await client.send_typing(ctx.message.channel)
 
+@client.command()
+async def albumtoimg(*args):
+	""" Syntax : !albumtoimg _link_ number_of_pictures
+	Transforms imgur album into series of pics
+	 """
+	br = 0
+	condition = int(args[1])
+	album1 = args[0].split('/')
+	album_id = album1[-1]
+	for image in imgclient.get_album_images(album_id):
+		br+=1
+		await client.say("https://i.imgur.com/"+image.id)
+		if br>=condition:
+			break
 
+@client.command()
+async def countdown(*args):
+	""" A stopwatch | Syntax: !countdown time_in_minutes """
+	global start_time
+	if(args[0] == "current" and ''.join(args).isalpha()):
+		secs = (datetime.datetime.now()-start_time).seconds
+		await client.say("Time passed thus far: %sh:%sm:%ss" %(secs//3600,secs//60,secs%60))
+	elif(''.join(args).isalpha()):
+		await client.say("Command not recognized")
+	else:
+		start_time = datetime.datetime.now()
+		msgId1 = await client.say(f"{float(args[0])}min countdown started...")
+		msgId2 = await client.say("Use *!countdown current* to see how much time has passed!")
+		await asyncio.sleep(float(args[0])*60)
+		await client.delete_message(msgId1)
+		await client.delete_message(msgId2)
+		await client.say("Countdown of {}min over at {}".format(float(args[0]),datetime.datetime.now().strftime("%Hh:%Mm:%Ss")))
 
-client.loop.create_task(my_background_task())
+@client.command(pass_context = True)
+async def play(ctx,*args):
+	if(args[-1].isdigit()):
+		limit = int(args[-1])
+		search_term = ' '.join(args[:-1])
+	else:
+		limit = 5
+		search_term = ' '.join(args)
+	url = urlopen('http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=STEAMKEY&format=json')
+	obj = json.loads(url.read())
+	c = obj['applist']['apps']
+	for a in c:
+		if(search_term in a['name'].lower() and limit>0):
+			limit=limit-1
+			await client.say(a['name']+ " || "+'steam://run/'+str(a['appid']))
+
+# client.loop.create_task(my_background_task())
 client.run('BOT TOKEN')
